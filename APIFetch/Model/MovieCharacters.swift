@@ -9,9 +9,9 @@ import Foundation
 
 
 struct CharactersResponce: Codable {
-    let results: [MoviewCharacters]
+    let results: [MoviewCharacter]
 }
 
-struct MoviewCharacters: Codable {
+struct MoviewCharacter: Codable, Hashable {
     let name: String
 }

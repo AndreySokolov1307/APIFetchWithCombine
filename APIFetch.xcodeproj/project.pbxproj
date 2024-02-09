@@ -11,7 +11,7 @@
 		323543F52B764C1F00B721BB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323543F42B764C1F00B721BB /* MainView.swift */; };
 		32F126FD2B757C3600BEDA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F126FC2B757C3600BEDA4A /* AppDelegate.swift */; };
 		32F126FF2B757C3600BEDA4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F126FE2B757C3600BEDA4A /* SceneDelegate.swift */; };
-		32F127012B757C3600BEDA4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F127002B757C3600BEDA4A /* ViewController.swift */; };
+		32F127012B757C3600BEDA4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F127002B757C3600BEDA4A /* MainViewController.swift */; };
 		32F127062B757C3800BEDA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F127052B757C3800BEDA4A /* Assets.xcassets */; };
 		32F127092B757C3800BEDA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F127072B757C3800BEDA4A /* LaunchScreen.storyboard */; };
 		32F127112B757E9800BEDA4A /* MovieCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F127102B757E9800BEDA4A /* MovieCharacters.swift */; };
@@ -23,7 +23,7 @@
 		32F126F92B757C3600BEDA4A /* APIFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F126FC2B757C3600BEDA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32F126FE2B757C3600BEDA4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32F127002B757C3600BEDA4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32F127002B757C3600BEDA4A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		32F127052B757C3800BEDA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F127082B757C3800BEDA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32F1270A2B757C3800BEDA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		323543EC2B76453F00B721BB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				32F127002B757C3600BEDA4A /* ViewController.swift */,
+				32F127002B757C3600BEDA4A /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +137,8 @@
 			dependencies = (
 			);
 			name = APIFetch;
+			packageProductDependencies = (
+			);
 			productName = APIFetch;
 			productReference = 32F126F92B757C3600BEDA4A /* APIFetch.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +167,8 @@
 				Base,
 			);
 			mainGroup = 32F126F02B757C3600BEDA4A;
+			packageReferences = (
+			);
 			productRefGroup = 32F126FA2B757C3600BEDA4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,7 +198,7 @@
 				323543F32B76467300B721BB /* NetworkService.swift in Sources */,
 				323543F52B764C1F00B721BB /* MainView.swift in Sources */,
 				32F127112B757E9800BEDA4A /* MovieCharacters.swift in Sources */,
-				32F127012B757C3600BEDA4A /* ViewController.swift in Sources */,
+				32F127012B757C3600BEDA4A /* MainViewController.swift in Sources */,
 				32F126FD2B757C3600BEDA4A /* AppDelegate.swift in Sources */,
 				32F126FF2B757C3600BEDA4A /* SceneDelegate.swift in Sources */,
 			);
@@ -321,6 +325,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
