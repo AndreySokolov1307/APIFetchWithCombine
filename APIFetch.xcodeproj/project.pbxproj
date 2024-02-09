@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		323543F32B76467300B721BB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323543F22B76467300B721BB /* NetworkService.swift */; };
+		323543F52B764C1F00B721BB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323543F42B764C1F00B721BB /* MainView.swift */; };
 		32F126FD2B757C3600BEDA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F126FC2B757C3600BEDA4A /* AppDelegate.swift */; };
 		32F126FF2B757C3600BEDA4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F126FE2B757C3600BEDA4A /* SceneDelegate.swift */; };
 		32F127012B757C3600BEDA4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F127002B757C3600BEDA4A /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		323543F22B76467300B721BB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		323543F42B764C1F00B721BB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		32F126F92B757C3600BEDA4A /* APIFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F126FC2B757C3600BEDA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32F126FE2B757C3600BEDA4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		323543F02B76456D00B721BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				323543F42B764C1F00B721BB /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				323543F32B76467300B721BB /* NetworkService.swift in Sources */,
+				323543F52B764C1F00B721BB /* MainView.swift in Sources */,
 				32F127112B757E9800BEDA4A /* MovieCharacters.swift in Sources */,
 				32F127012B757C3600BEDA4A /* ViewController.swift in Sources */,
 				32F126FD2B757C3600BEDA4A /* AppDelegate.swift in Sources */,
