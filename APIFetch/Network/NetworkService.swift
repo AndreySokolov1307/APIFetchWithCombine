@@ -14,7 +14,7 @@ class NetworkService {
     
     private let url = Constants.url
     
-    func fetchCharacters()  -> AnyPublisher<[MoviewCharacters], Error> {
+    func fetchCharacters()  -> AnyPublisher<[MoviewCharacter], Error> {
         return URLSession.shared.dataTaskPublisher(for: url!)
             .tryMap { (data, responce) in
                 guard let responce = responce as? HTTPURLResponse,
